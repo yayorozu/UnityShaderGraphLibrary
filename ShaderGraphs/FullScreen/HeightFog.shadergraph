@@ -322,7 +322,7 @@
         },
         "preventRotation": false
     },
-    "m_Path": "Shader Graphs/ImageEffect",
+    "m_Path": "Shader Graphs/FullScreen",
     "m_GraphPrecision": 1,
     "m_PreviewMode": 2,
     "m_OutputNode": {

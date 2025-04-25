@@ -82,10 +82,10 @@ inline void SetupBiPlanarSample(
 // Bi-Planarマッピング (カラー用)
 // アルベド/マスク/任意のテクスチャに対応
 void BiPlanarMapping_float(
-    float3 PositionWS,
-    float3 NormalWS,
     UnityTexture2D Texture,
     UnitySamplerState Sampler,
+    float3 PositionWS,
+    float3 NormalWS,
     float TextureScale,
     float Blend,
     out float4 Out)
@@ -102,10 +102,10 @@ void BiPlanarMapping_float(
 // Bi-Planarノーマルマッピング
 // ノーマルマップのスケール対応
 void BiPlanarNormal_float(
-    float3 PositionWS,
-    float3 NormalWS,
     UnityTexture2D NormalTex,
     UnitySamplerState Sampler,
+    float3 PositionWS,
+    float3 NormalWS,
     float TextureScale,
     float Blend,
     float NormalScale,
